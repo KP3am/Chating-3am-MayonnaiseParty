@@ -1,0 +1,64 @@
+.login_form{
+	max-width: 20rem;
+	margin: 0.1rem auto;
+}
+
+.login_form>input{
+	width: 100%;
+	height: 3rem;
+	padding: 1rem;
+	margin-top: 0.5rem;
+	border-radius: 12px;
+	border: 1px solid #ccc;
+	font-family: Raleway;
+	font-size: 1.2rem
+}
+
+input:focus{
+	outline: none;
+	border: 1px solid #999;
+}
+
+.login_button_container{
+	max-width: 20rem;
+	margin: 0.7rem auto
+}
+
+.login_button_container>button{
+	font-family: Raleway;
+	font-size: 1.2rem;
+	width: 100%;
+	padding: 1rem;
+	margin-top: 2rem;
+	border: none
+}
+
+button:focus{
+	outline: none;
+}
+
+.login_button{
+	background-color: #0073c6;
+  color: #FFFFFF;
+	transition: background .1s ease-in-out;
+  transform-origin: 0% 0%;
+  border-radius: 5px;
+}
+.login_button:hover{
+	background: #085a95;
+  transform: translateX(-50%);
+  animation: rotatec87 5s ease-out infinite;
+}
+@keyframes rotatec87 {
+  0%{transform: translateX(-50%) rotate(0deg);}
+  100%{transform: translateX(-50%) rotate(360deg);}
+}
+.login_button:active{
+	background: #085a95;
+  transform: translateY(-30px);
+  animation: rotatec86 5s ease-out infinite;
+}
+@keyframes rotatec86 {
+  0%{transform: translateY(-30px) rotateY(0deg) rotateX(0deg);}
+  100%{transform: translateY(-30px) rotateY(360deg) rotateX(90deg);}
+}

@@ -1,0 +1,23 @@
+.container{
+	width: 80%;
+	margin: 1rem auto;
+}
+
+.login_img_container{
+	background-image: url(./img/login.png);
+	background-size: cover;
+	background-position: center center;
+	max-width: 480px;
+	height: 360px;
+	margin: 0 auto;
+	border-radius: 100%;
+	transition: all .5s ease-in-out;
+	transform: scale(1);
+}
+
+@media screen and (max-width: 480px) {
+    .login_img_container{
+    	background: url(./img/login320.png);
+    	height: 280px;
+    }
+}
