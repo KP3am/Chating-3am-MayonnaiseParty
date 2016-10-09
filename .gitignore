@@ -1,2 +1,9 @@
+<<<<<<< HEAD
 .git
 node_modules
+=======
+node_modules/
+*npm-debug.log
+*.DS_Store
+dist/*.js
+>>>>>>> develop/login/Les
