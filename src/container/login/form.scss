@@ -17,6 +17,14 @@
 input:focus{
 	outline: none;
 	border: 1px solid #999;
+	animation: Shake 0.01s linear infinite;
+}
+
+@keyframes Shake{
+	0%{transform: translateX(-2px) translateY(1px)}
+	33%{transform: translateX(0) translateY(0)}
+	66%{transform: translateX(2px) translateY(-1px)}
+	100%{transform: translateX(0) translateY(0)}
 }
 
 .login_button_container{
